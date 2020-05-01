@@ -1,4 +1,4 @@
-# Docker image - abhinabsarkar/abs-hello-csharp:v1
+# Docker hub image - abhinabsarkar/abs-hello-csharp:v1
 Dockerfile & Source code for image stored in Docker Hub - abhinabsarkar/abs-hello-csharp:v1
 ### To build the image, run docker build from the root directory of the application
 ```bash
