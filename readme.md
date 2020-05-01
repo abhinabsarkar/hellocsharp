@@ -1,6 +1,6 @@
-# Dockerfile & Source code for image - abhinabsarkar/abs-hello-csharp:v1
-
-## To build the image, run docker build from the root directory of the application
+# Docker image - abhinabsarkar/abs-hello-csharp:v1
+Dockerfile & Source code for image stored in Docker Hub - abhinabsarkar/abs-hello-csharp:v1
+### To build the image, run docker build from the root directory of the application
 ```bash
 # Build the abs image
 docker build -t abs-hello-csharp:v1 .
