@@ -1,5 +1,7 @@
-# To build the image, run docker build from the root directory of the application
+# Dockerfile & Source code for image - abhinabsarkar/abs-hello-csharp:v1
 
+## To build the image, run docker build from the root directory of the application
+```bash
 # Build the abs image
 docker build -t abs-hello-csharp:v1 .
 # Run the docker container locally
@@ -24,3 +26,4 @@ docker tag local-image:tagname new-repo:tagname
 # push the tagged image to the docker hub
 docker push new-repo:tagname
 # eg: docker push abhinabsarkar/abs-hello-csharp:v1
+```
