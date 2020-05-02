@@ -1,5 +1,12 @@
 # Docker hub image - abhinabsarkar/abs-hello-csharp:v1
-Dockerfile & Source code for image stored in Docker Hub - abhinabsarkar/abs-hello-csharp:v1
+A sample docker app built on Alpine linux 3.1 version using C# dotnet core version 3.1. The sample application shows path based routing.
+
+The docker image can be downloaded from docker hub by running the below command
+```bash
+abhinabsarkar/abs-hello-csharp:v1
+```
+Size of the docker image is 110 MB.
+
 ### To build the image, run docker build from the root directory of the application
 ```bash
 # Build the abs image
